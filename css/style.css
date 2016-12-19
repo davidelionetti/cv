@@ -75,6 +75,9 @@ Preloader
 /**********************************
 General
 **********************************/
+.slidingBody, .slidingImg {
+    overflow-x: hidden;
+}
 html, body {
     height: 100%;
     width: 100%;
