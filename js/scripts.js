@@ -259,6 +259,7 @@ $(document).ready(function() {
                     $('.preloader').css('opacity','0');
                     $(this).hide();
                     $(".overlay").css('background-color','rgba(0,0,0,0.5)');
+                    $('.preloader').hide();
                 });
     
             // Apply class for WOW
