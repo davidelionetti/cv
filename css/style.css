@@ -100,10 +100,11 @@ html, body, div, p {
     -moz-box-shadow: -2.5px 0px 15px 0px rgba(125,121,125,1);
     box-shadow: -2.5px 0px 15px 0px rgba(125,121,125,1);
 }
-
-.slidingBody.slided {
+@media (min-width: 781px) {
+    .slidingBody {
+        left: 0 !important;
+    }
 }
-
 .closeMenu {
     position: fixed;
     top: 0;
