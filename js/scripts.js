@@ -262,6 +262,23 @@ $(document).ready(function() {
                     $('.preloader').hide();
                 });
     
+                // Skipping preloader
+                $('.skipper').on("click", function(){
+                    $('.preloader').css('opacity','0');
+                    $('#trigger').hide();
+                    $(this).fadeOut('fast');
+                    $(".overlay").css('background-color','rgba(0,0,0,0.5)');
+                    $('.preloader').hide();
+                    $('#slides').find('img').removeClass('hidden');
+                    $(".subtitle").typed({
+                        strings: ['"Everything around you,^250 was made up by people that are no smarter than you.^1250 And you can change it."'],
+                        typeSpeed: 30
+                    });
+                    $('body').removeClass('overhidden');
+                    $.scrollTo(document.getElementById('top'), 750);
+                    $('.hidden').removeClass('hidden');
+                });
+    
             // Apply class for WOW
             $('#about').find('.section-content').addClass('wow').addClass('fadeIn');
             $('.experience-container').addClass('wow').addClass('fadeIn');
