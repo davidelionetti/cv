@@ -73,10 +73,22 @@ Preloader
     position: relative;
     z-index: -1;
 }
+@media screen and (max-width: 780px) {
+    .skipper {
+        left: 50%;
+        -moz-transform: translateX(-50%);
+        -webkit-transform: translateX(-50%);
+        transform: translateX(-50%);
+    }
+}
+@media screen and (min-width: 781px) {
+    .skipper {
+        right: 1.5%;
+    }
+}
 .skipper {
     position: absolute !important;
     bottom: 15px;
-    right: 1.5%;
     border: 1px solid #fff !important;
     width: auto !important;
     padding: 2.5px 20px !important;
