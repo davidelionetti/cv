@@ -19,11 +19,17 @@ h1, h2, h3 {
 p {
     margin: 0;
 }
+strong {
+    color: rgba(229, 57, 53, 0.9);
+}
+.title strong {
+    color: inherit !important;
+}
 
 
 /* Section general */
 section {
-    margin-bottom: 3.5cm;
+    margin-bottom: 2.5cm;
 }
 h2.section-title {
     font-size: 25px;
@@ -52,7 +58,7 @@ hr {
     color: rgba(33, 33, 33, 0.8);
     text-transform: uppercase;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 16px;
     letter-spacing: 1px;
 }
 .time {
@@ -65,11 +71,13 @@ hr {
     font-weight: bold;
     font-size: 14px;
     letter-spacing: 0.5px;
+    color: rgba(33, 33, 33, 0.8);
 }
 .description {
     text-align: justify;
     font-size: 14px;
     line-height: 1.5em;
+    color: rgba(33, 33, 33, 0.8);
 }
 
 /* Intro section */
@@ -90,13 +98,41 @@ hr {
 }
 #intro .right {
     padding-left: 5cm;
+    text-align: right;
 }
 #intro .face {
     border-radius: 50%;
     height: 4cm;
 }
+#intro p {
+    line-height: 54px;
+}
 
 /* Education section */
 #education {
     clear: both;
+}
+
+
+/* Interests section */
+#interests h3 {
+    display: inline;
+    color: rgba(33, 33, 33, 0.8);
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+#interests ul {
+    padding: 0;
+    margin: 0;
+}
+#interests ul li {
+    display: inline-block;
+    width: 24%;
+    text-align: center;
+}
+#interests li .fa {
+    margin-right: 15px;
+    color: rgba(229, 57, 53, 0.9);
 }
