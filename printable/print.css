@@ -1,0 +1,102 @@
+@page {
+    size: A4 portrait;
+    background-color: white;
+}
+body {
+    margin: 0 !important;
+    font-family: 'Lato', sans-serif;
+    color: rgba(0,0,0,0.85);
+    background-color: white;
+    font-size: 15px;
+}
+.container {
+    margin: 2cm;
+}
+h1, h2, h3 {
+    color: rgba(33, 33, 33, 0.9);
+    letter-spacing: 1px;
+}
+p {
+    margin: 0;
+}
+
+
+/* Section general */
+section {
+    margin-bottom: 3.5cm;
+}
+h2.section-title {
+    font-size: 25px;
+    margin-bottom: 0.5cm;
+}
+h2.section-title .fa {
+    margin-right: 0.5cm;
+    color: #E53935;
+}
+ul {
+    list-style: none;
+    padding: 0;
+    padding-left: 0.5cm;
+}
+hr {
+    content: "";
+    display: block;
+    height: 1.5px;
+    width: 100%;
+    margin: 10px;
+    background: rgba(244, 67, 54, 0.65);
+    margin-left: 0;
+    border: 0;
+}
+.title {
+    color: rgba(33, 33, 33, 0.8);
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+.time {
+    color: #E53935;
+    font-size: 14px;
+    margin-bottom: 0.25cm;
+}
+.institution {
+    margin-bottom: 0.25cm;
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+}
+.description {
+    text-align: justify;
+    font-size: 14px;
+    line-height: 1.5em;
+}
+
+/* Intro section */
+#intro {
+    width: 100%;
+}
+#intro .fa {
+    color: rgba(244, 67, 54, 0.85);
+}
+#intro .fa-map-marker {
+    margin-right: 0.425cm;
+}
+#intro .fa-calendar {
+    margin-right: 0.25cm;
+}
+#intro .left {
+    float: left;
+}
+#intro .right {
+    padding-left: 5cm;
+}
+#intro .face {
+    border-radius: 50%;
+    height: 4cm;
+}
+
+/* Education section */
+#education {
+    clear: both;
+}
